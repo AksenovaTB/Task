@@ -16,5 +16,6 @@
   <content>Catalog.КЛ_КонтактныеЛица</content>
   <content>Catalog.КЛ_ДоставкаПрисоединенныеФайлы</content>
   <content>Catalog.Производители</content>
+  <content>Catalog.Сотрудники</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>
