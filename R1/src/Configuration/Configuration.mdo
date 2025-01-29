@@ -1228,6 +1228,7 @@
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.КЛ_Доставка</documents>
   <documents>Document.ПриемНаРаботу</documents>
+  <documents>Document.КадровыйПерервод</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>

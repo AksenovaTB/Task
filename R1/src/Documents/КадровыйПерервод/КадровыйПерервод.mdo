@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55569068-be01-42d0-aa65-e2cf530efa64">
+  <producedTypes>
+    <objectType typeId="d281cf6d-f30e-4a8f-b1d2-3b0efa16ee26" valueTypeId="9d7e0f80-73b9-4c71-a1e6-f368e5b6ae88"/>
+    <refType typeId="b7bbb1fe-0b88-4d87-8955-fe4edbaada6d" valueTypeId="ce8ed29a-41dc-4de9-838e-e069b8f02e6b"/>
+    <selectionType typeId="86641a50-3b59-4baf-b7fd-6097a8331932" valueTypeId="11f63bac-18ef-4cd6-b73b-8aec2500f13b"/>
+    <listType typeId="92946e2b-5ad8-4a0e-98ba-4abe3b41ccb5" valueTypeId="b2b8aa5c-17e8-47e1-9e08-e1f42bf7e2b5"/>
+    <managerType typeId="b15c0602-f31d-4772-9b68-635c2721c874" valueTypeId="3ab3b454-7f57-4c5d-b439-3e631f10cf4b"/>
+  </producedTypes>
+  <name>КадровыйПерервод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перервод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПерервод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e9639875-5104-47bb-ad5e-af9ea97ad2bb">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c899639-ac17-480d-9ea6-60d42b53387a">
+    <name>ДолжностьНовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность новая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КЛ_Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
