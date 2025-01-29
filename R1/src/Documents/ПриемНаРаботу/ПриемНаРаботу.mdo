@@ -18,8 +18,12 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>ПриемыНаРаботу</value>
+  </listPresentation>
   <numberType>String</numberType>
-  <numberLength>9</numberLength>
+  <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
